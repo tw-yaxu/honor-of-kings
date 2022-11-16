@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/honor-of-kings/static/css/main.9dc868d7.css",
+    "main.js": "/honor-of-kings/static/js/main.65ce249c.js",
+    "static/js/787.2eed6118.chunk.js": "/honor-of-kings/static/js/787.2eed6118.chunk.js",
+    "static/media/all-hero.jpeg": "/honor-of-kings/static/media/all-hero.7dd6611f3df7c940a327.jpeg",
+    "index.html": "/honor-of-kings/index.html",
+    "main.9dc868d7.css.map": "/honor-of-kings/static/css/main.9dc868d7.css.map",
+    "main.65ce249c.js.map": "/honor-of-kings/static/js/main.65ce249c.js.map",
+    "787.2eed6118.chunk.js.map": "/honor-of-kings/static/js/787.2eed6118.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dc868d7.css",
+    "static/js/main.65ce249c.js"
+  ]
+}
