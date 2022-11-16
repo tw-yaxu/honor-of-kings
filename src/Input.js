@@ -9,11 +9,22 @@ export default function KeyInput() {
         setKeyWords(event.target.value);
     }
 
+    const options = {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({encryptCode: keyWords})
+    };
+
     const handleClick = () => {
-        console.log('key words 👉️', keyWords);
-        fetch('http://47.108.154.180:8034/?code=asd', {mode: 'no-cors'}).finally(res => {
-            setHeroes(res?.data || "抽取成功！ \\1F60A")
-        })
+        fetch('/api', options)
+            .then(response => response.json())
+            .then(response => {
+                setHeroes(response.data)
+            })
+            .catch(err => console.error(err));
     }
 
     return (
