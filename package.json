@@ -2,7 +2,7 @@
   "name": "honor-of-kings",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tw-yaxu.github.io/honor-of-kings",
+  "homepage": "https://tw-yaxu.github.io/honor-of-kings",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
