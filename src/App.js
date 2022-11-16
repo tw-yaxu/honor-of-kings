@@ -1,12 +1,12 @@
+import React from 'react';
 import './App.css';
+import KeyInput from "./Input";
 
-function App() {
-  return (
-    <div className="selector-container">
-
-
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="selector-container">
+            <KeyInput />
+        </div>
+    );
 }
 
-export default App;
